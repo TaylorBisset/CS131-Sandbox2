@@ -2,6 +2,14 @@
 
 using namespace std;
 
+/*
+Create project with the name Sandbox2 and do the following:
+
+Write code that will ask the user for two integers
+Give back (print) to them the total of the two numbers
+Also give back (print) to the user the average of the two numbers as a decimal number
+*/
+
 int main()
 {
     return 0;

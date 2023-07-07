@@ -1,4 +1,5 @@
 #include <iostream>
+#include <iomanip>
 
 using namespace std;
 
@@ -18,9 +19,12 @@ int main()
     cout << "Enter two integers:\n";
 
     cin >> userInt1 >> userInt2;
+    cout << endl;
 
     cout << userInt1 << " + " << userInt2 << " is " << userInt1 + userInt2 << endl;
-    cout << "The average of " << userInt1 << " and " << userInt2 << " is " << ((userInt1 + userInt2) / 2) << endl;
+    
+    cout << "The average of " << userInt1 << " and " << userInt2 << " is ";
+    cout << fixed << setprecision (1) << (((userInt1 * 1.0) + (userInt2 * 1.0)) / 2) * 1.0 << endl;
 
     return 0;
 }

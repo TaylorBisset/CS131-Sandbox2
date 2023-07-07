@@ -12,5 +12,12 @@ Also give back (print) to the user the average of the two numbers as a decimal n
 
 int main()
 {
+    int userInt1;
+    int userInt2;
+    
+    cout << "Enter two integers:\n";
+
+    cin >> userInt1 >> userInt2;
+
     return 0;
 }

@@ -24,7 +24,7 @@ int main()
     cout << userInt1 << " + " << userInt2 << " is " << userInt1 + userInt2 << endl;
     
     cout << "The average of " << userInt1 << " and " << userInt2 << " is ";
-    cout << fixed << setprecision (1) << (((userInt1 * 1.0) + (userInt2 * 1.0)) / 2) * 1.0 << endl;
+    cout << fixed << setprecision (1) << (((userInt1 * 1.0) + (userInt2 * 1.0)) / 2) << endl;
 
     return 0;
 }

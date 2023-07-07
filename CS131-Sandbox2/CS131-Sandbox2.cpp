@@ -19,5 +19,7 @@ int main()
 
     cin >> userInt1 >> userInt2;
 
+    cout << userInt1 << " + " << userInt2 << " is " << userInt1 + userInt2 << endl;
+
     return 0;
 }
